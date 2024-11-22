@@ -13,5 +13,8 @@ let studentScores = {
 };
 
 // Start coding here
+let { name, age, scores } = studentProfile
+scores = {...scores, ...studentScores}
+let newStudentProfile = {name, age, scores}
 
 console.log(newStudentProfile);
